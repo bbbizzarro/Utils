@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System;
 
-public namespace Utils {
+namespace Utils {
 
 public interface IHeap<T> {
     void Insert(T item);
