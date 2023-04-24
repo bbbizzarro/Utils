@@ -3,11 +3,8 @@ using System.Collections.Generic;
 using Godot;
 
 namespace Utils {
-    public class Math {
+    public class MathUtils {
         public static float Tau = 2f * Mathf.Pi;
-
-        public Utils() {
-        }
 
         public static float Mod(float x, float m) {
             return (x % m + m ) %m;
